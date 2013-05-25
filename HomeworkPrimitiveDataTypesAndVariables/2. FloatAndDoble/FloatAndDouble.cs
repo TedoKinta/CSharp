@@ -2,7 +2,7 @@
 
 using System;
 
-class FloatAndDoble
+class FloatAndDouble
 {
     static void Main()
     {

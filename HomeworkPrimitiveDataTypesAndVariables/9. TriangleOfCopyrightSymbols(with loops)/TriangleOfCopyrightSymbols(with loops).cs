@@ -1,34 +1,48 @@
-﻿/*A marketing firm wants to keep record of its employees. Each record would have the following characteristics – first name, family name, age, gender (m or f), 
-ID number, unique employee number (27560000 to 27569999). Declare the variables needed to keep the information for a single employee using appropriate data types 
-and descriptive names.*/
+﻿using System;
+using System.Text;
 
-using System;
-
-class TriangleOfCopyrightSymbolsWithLoops
+class IsoscelesTriangle
 {
     static void Main()
     {
-        int rows = 3;
-        char CopyRight = '\u00A9';
-        int intervals = rows;
-        int chars = 1;
-
-        for (int u = 0; u < rows; u++) //every row
+        Console.OutputEncoding = Encoding.Unicode;
+        char copyright = '\u00A9';
+        Console.Write("Please, enter the number of the rows: ");
+        int n = int.Parse(Console.ReadLine());
+        for (int row = 1; row < n; row++)                           // it's draw the top of the isosceles triangle
         {
-
-            intervals -= 1;
-            for (int i = 0; i < intervals; i++) //printing the intervals for the single row
+            int prevRow = row - 1;                                  // the previous row number
+            for (int col = 1; col <= 2 * n - 1; col++)
+            {
+                if (col < n - prevRow || col > n + prevRow)
+                {
+                    Console.Write(" ");
+                }
+                else
+                {
+                    if (col < n - (prevRow - 1) || col > n + (prevRow - 1))     // this remove the interior part
+                    {
+                        Console.Write(copyright);
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+            }
+            Console.WriteLine();
+        }
+        for (int i = 1; i <= 2 * n - 1; i++)                            // it's draw the bottom side
+        {
+            if (i % 2 == 0)
             {
                 Console.Write(" ");
             }
-
-            
-            for (int c = 0; c < chars; c++) //printing the (c) for the single row
+            else
             {
-                Console.Write(CopyRight);
+                Console.Write(copyright);
             }
-            chars += 2;
-            Console.WriteLine();
         }
+        Console.WriteLine("\n");
     }
 }
