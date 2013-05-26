@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("shits")]
+[assembly: AssemblyTitle("14. BitsExchangeinUnsignedInteger")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("shits")]
+[assembly: AssemblyProduct("14. BitsExchangeinUnsignedInteger")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f5af2496-328a-4ef5-8795-70e9616a482e")]
+[assembly: Guid("d0eefd49-4abf-4d6d-a8cc-b0bd6f6074c7")]
 
 // Version information for an assembly consists of the following four values:
 //

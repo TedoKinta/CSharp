@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C57F6AA-4E20-4997-82C9-AF4621306F25}</ProjectGuid>
+    <ProjectGuid>d0eefd49-4abf-4d6d-a8cc-b0bd6f6074c7</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>shits</RootNamespace>
-    <AssemblyName>shits</AssemblyName>
+    <RootNamespace>_14.BitsExchangeinUnsignedInteger</RootNamespace>
+    <AssemblyName>_14.BitsExchangeinUnsignedInteger</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

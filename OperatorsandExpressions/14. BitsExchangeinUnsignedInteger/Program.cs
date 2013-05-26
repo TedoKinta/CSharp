@@ -4,15 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace shits
+namespace _14.BitsExchangeinUnsignedInteger
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int shit = 4524;
-
-
         }
     }
 }
